@@ -1,0 +1,461 @@
+2	23,4 h	126 aulas	Excel 2019 - Módulo II (Premium)
+3	15,7 h	89 aulas	Office 365 para Negócios: Domine a Produtividade (Premium)
+4	15,7 h	81 aulas	Excel 2019 - Gráficos e Dashboards (Premium)
+7	11,1 h	70 aulas	React - Direto ao Ponto (Premium)
+8	10,0 h	49 aulas	Photoshop CC 2019 - Módulo I (Premium)
+10	8,6 h	34 aulas	Scrum - Gestão e Desenvolvimento Ágil de Projetos
+11	7,8 h	31 aulas	SQL 2016: Construindo Sistemas de Banco de Dados Poderosos (Premium)
+14	6,8 h	21 aulas	Power BI Desktop: Dominando Análise de Dados (Premium)
+15	5,4 h	25 aulas	Domine o Inbound Marketing
+16	5,1 h	30 aulas	Photoshop CC 2019 - Módulo II (Premium)
+18	4,6 h	19 aulas	PNL - Desvendando a Mente (Premium)
+19	3,5 h	50 aulas	Marketing Digital para Ecommerce (Premium)
+20	3,3 h	22 aulas	Mongo DB em Ação: Dominando a Prática (Premium)
+21	3,1 h	19 aulas	Big Data com Hadoop - Fundamentos (Premium)
+22	2,6 h	15 aulas	ETL na Prática - Como trabalhar com dados (Premium)
+23	2,5 h	13 aulas	Global Business for Tech Entrepreneurs
+24	2,2 h	7 aulas	Negociação Produtiva (Premium)
+25	2,1 h	11 aulas	Global Business for Entrepreneurs
+26	1,9 h	16 aulas	Tik Tok Ads (Premium)
+27	1,9 h	12 aulas	Data Warehouse Fundamentos e Implementação (Premium)
+29	1,7 h	10 aulas	R: Explorando o Potencial da Análise de Dados (Premium)
+30	1,6 h	8 aulas	Fundamentos de Liderança
+31	1,5 h	10 aulas	Introdução à Lógica de Programação (Premium)
+32	1,4 h	1 aulas	Home Officer - O profissional do agora
+35	1,2 h	6 aulas	Reinventando a Carreira
+37	1,2 h	13 aulas	IoT Desvendada: Fundamentos da Internet das Coisas
+38	1,2 h	5 aulas	Tendências Globais para Fintechs (Premium)
+40	0,9 h	3 aulas	Brand Experience (Premium)
+43	0,8 h	4 aulas	Apertando START no mundo dos games (Premium)
+44	0,8 h	6 aulas	Planejamento Estratégico
+45	0,8 h	3 aulas	Mobile Economy
+46	0,8 h	4 aulas	Como criar um E-Commerce Global
+47	0,8 h	5 aulas	Vida e Morte das Organizações
+49	0,7 h	5 aulas	Como criar uma marca global
+50	0,7 h	3 aulas	Game Design e Prototipagem para Boardgames (Premium)
+51	0,6 h	4 aulas	Double Diamond - Introdução ao UX Design (Premium)
+52	0,5 h	4 aulas	Estratégias Aplicadas ao Empreendedorismo
+53	0,4 h	3 aulas	Ferramentas para aumentar sua produtividade (Premium)
+54	0,4 h	1 aulas	Sociedade com Custo Marginal Zero
+55	0,4 h	1 aulas	Colocando a Coragem para Trabalhar
+56	0,4 h	3 aulas	Empreender como PJ: O Guia para a Liberdade Profissional
+57	0,4 h	1 aulas	A Guerra por Talentos
+58	0,4 h	1 aulas	Como Expatriar Funcionários
+59	0,4 h	1 aulas	Um guia para Iniciantes: O que é o Metaverso?
+60	0,4 h	1 aulas	A alma do dinheiro
+61	0,4 h	1 aulas	Inteligência Emocional
+62	0,4 h	1 aulas	Criatividade
+63	0,4 h	3 aulas	Arquétipos do Networking
+64	0,4 h	1 aulas	O Líder do Futuro
+65	0,3 h	1 aulas	O Caminho para a Reinvenção
+66	0,3 h	1 aulas	Mentalidade de Crescimento (Premium)
+67	0,3 h	1 aulas	Preparando pessoas para a transformação
+68	0,3 h	1 aulas	Conceito: Homo Deus
+69	0,3 h	1 aulas	A Indústria de Ideias
+70	0,3 h	6 aulas	Neurociência da Educação
+71	0,3 h	1 aulas	Monetizando a Inovação
+72	0,3 h	2 aulas	Aspectos Legais da Internacionalização
+73	0,3 h	1 aulas	Liderança Aberta
+74	0,3 h	1 aulas	O Projeto Desfazer:A amizade que mudou nossa forma de pensar
+75	0,3 h	1 aulas	A Quarta Revolução Industrial
+76	0,3 h	1 aulas	O homem mais rico da Babilônia
+77	0,3 h	1 aulas	Habilidades do Futuro
+78	0,3 h	1 aulas	Dominando a arte de falar em público
+79	0,3 h	1 aulas	A Economia Global em 2030
+80	0,3 h	1 aulas	Pensamento Crítico
+81	0,3 h	1 aulas	A Armadilha do Tempo
+82	0,3 h	1 aulas	O Futuro da Economia - As 12 Tendências
+83	0,3 h	1 aulas	Conceito: Sapiens - Uma breve história da humanidade
+84	0,3 h	1 aulas	Como Criar Apresentações Impactantes (Premium)
+85	0,3 h	1 aulas	O Investidor de Bom Senso
+86	0,3 h	1 aulas	O Metaverso de Charlie Fink
+87	0,3 h	1 aulas	Humble Leadership - A liderança humilde
+88	0,3 h	1 aulas	Olhe Mais Além: Uma abordagem comprovada sobre inovação
+89	0,3 h	1 aulas	Desencadeando a Inovação e o Potencial Empreendedor
+90	0,3 h	1 aulas	Dez Tipos de Inovação
+91	0,3 h	2 aulas	Marketing Digital para Iniciantes (Premium)
+92	0,3 h	1 aulas	Marketing na Era Digital
+93	0,3 h	1 aulas	A Hipótese do Inovador
+94	0,3 h	4 aulas	Pensamento Exponencial
+95	0,3 h	1 aulas	Lidere, Cuide, Vença - Como se tornar um líder relevante
+96	0,3 h	1 aulas	Liderança em Tempos de Crise
+97	0,3 h	1 aulas	Saída de Mestre
+98	0,3 h	1 aulas	A Mentalidade Criativa
+99	0,3 h	1 aulas	Um CEO Faz Apenas Três Coisas
+100	0,3 h	1 aulas	Adaptabilidade (Premium)
+101	0,3 h	1 aulas	Medicina e Biotecnologia
+102	0,3 h	1 aulas	A História Secreta da Criatividade
+103	0,3 h	1 aulas	O MBA da Vida Real
+104	0,3 h	1 aulas	Lifelong Learning - Aprendizado Contínuo
+105	0,3 h	1 aulas	O Futuro do Trabalho - Robôs, inteligência artificial
+106	0,3 h	1 aulas	A Economia do Bem e do Mal
+107	0,3 h	1 aulas	Obrigado pela Informação que Você Não Me Deu
+108	0,3 h	1 aulas	Mais do que Mulher-Maravilha... Mulher Real
+109	0,3 h	1 aulas	O Acaso Não Existe
+110	0,3 h	1 aulas	Tudo o Que Você Precisa Saber Sobre o Futuro do Trabalho
+111	0,3 h	1 aulas	A Arte da Liderança - Pequenas coisas, bem executadas
+112	0,3 h	1 aulas	As 17 Incontestáveis Leis do Trabalho em Equipe
+113	0,3 h	1 aulas	O que Fazer Quando as Máquinas Fazem Tudo
+114	0,3 h	1 aulas	Liderança Criativa
+115	0,3 h	1 aulas	Como Avaliar e Medir a Inovação nos Negócios
+116	0,3 h	2 aulas	Evolução dos Jogos e Gamificação (Premium)
+117	0,3 h	1 aulas	De Zero a Um
+118	0,3 h	1 aulas	Como Consertar uma Fábrica
+119	0,3 h	1 aulas	Solução de Problemas Complexos (Premium)
+120	0,3 h	1 aulas	Comunicação
+121	0,2 h	1 aulas	A Vantagem da Curiosidade
+122	0,2 h	1 aulas	Tendências de Tecnologia do Future Today Institute - 2020
+123	0,2 h	4 aulas	First Principle
+124	0,2 h	1 aulas	Política do Futuro
+125	0,2 h	1 aulas	Instagram, WhatsApp e Facebook para Negócios
+126	0,2 h	1 aulas	A Psicologia do Dinheiro
+127	0,2 h	1 aulas	Aberto para Pensar
+128	0,2 h	1 aulas	Tráfego Pago: O Segredo do Lucro nas Redes Sociais
+129	0,2 h	1 aulas	A Liderança Inspirada pela Arte
+130	0,2 h	1 aulas	O Estilo Emocional do Cérebro
+131	0,2 h	1 aulas	FLAPS! Liderança Adaptágil
+132	0,2 h	1 aulas	A Lógica do Consumo
+133	0,2 h	1 aulas	Escute o que ela diz
+134	0,2 h	1 aulas	A Era Exponencial
+135	0,2 h	1 aulas	Equipes Globais
+136	0,2 h	1 aulas	Scrum para Leigos
+137	0,2 h	1 aulas	O Desafio da Cadeia de Suprimentos Digital
+138	0,2 h	1 aulas	2025, O Mundo Novo
+139	0,2 h	1 aulas	Criptoativos - O guia inovador do investidor
+140	0,2 h	1 aulas	Os Dilemas do Fundador
+141	0,2 h	1 aulas	Como criar uma política corporativa de viagens internacionais
+142	0,2 h	1 aulas	A Revolução do Trabalho Remoto
+143	0,2 h	1 aulas	Dito de Forma Simples
+144	0,2 h	1 aulas	A Arte de Escrever para a Web
+145	0,2 h	1 aulas	As 21 Indispensáveis Qualidades de um Líder
+146	0,2 h	1 aulas	O Maior Retorno do Líder
+147	0,2 h	1 aulas	A Tríade do Tempo
+148	0,2 h	1 aulas	Responsabilidade Social Corporativa Não é Relações Públicas
+149	0,2 h	1 aulas	Persuasão
+150	0,2 h	1 aulas	Reinventando as organizações
+151	0,2 h	1 aulas	Instagram Marketing
+152	0,2 h	1 aulas	Todos Devemos Ser Milionários
+153	0,2 h	1 aulas	What Are Your Blind Spots?
+154	0,2 h	1 aulas	Adapte-se: Resiliência
+155	0,2 h	1 aulas	Mapeando a Inovação
+156	0,2 h	1 aulas	Ética, Mídia e Comunicação
+157	0,2 h	1 aulas	Biomimética: Inovação Bioinspirada
+158	0,2 h	1 aulas	Superintelligence: Paths, Dangers, Strategies
+159	0,2 h	1 aulas	Gerindo Transições 
+160	0,2 h	1 aulas	Aprimore Suas Reuniões Virtuais
+161	0,2 h	1 aulas	Qual o futuro do dinheiro?
+162	0,2 h	1 aulas	Zen Mind, Beginner's Mind
+163	0,2 h	1 aulas	Trabalhe Melhor em Grupo
+164	0,2 h	1 aulas	Liderança Shakti
+165	0,2 h	1 aulas	A Solução para o Esgotamento
+166	0,2 h	1 aulas	A potência das Microtendências
+167	0,2 h	1 aulas	A Liderança Atenciosa
+168	0,2 h	1 aulas	Elon Musk: Vida e Empreendimentos
+169	0,2 h	1 aulas	O jeito correto de ganhar
+170	0,2 h	1 aulas	Os Níveis de Aprendizagem
+171	0,2 h	1 aulas	Uma terra prometida
+172	0,2 h	1 aulas	Fazendo a Inovação Acontecer
+173	0,2 h	1 aulas	Hackeando Darwin
+174	0,2 h	1 aulas	O Companheiro de Equipe a Longa Distância
+175	0,2 h	1 aulas	Os 7 Hábitos das Pessoas Altamente Eficazes
+177	0,2 h	1 aulas	Soltando as Amarras
+178	0,2 h	1 aulas	A Quinta Disciplina
+179	0,2 h	1 aulas	Revolução do Talento
+180	0,2 h	1 aulas	5 Modos Entediantes de Se Tornar Mais Criativo
+181	0,2 h	1 aulas	Do bullying a Magnata: A trajetória de Elon Musk
+182	0,2 h	1 aulas	O C-Level do Futuro
+183	0,2 h	1 aulas	O Maior Bem que Podemos Fazer
+184	0,2 h	1 aulas	A Quietude é a chave
+185	0,2 h	1 aulas	A Sabedoria do Fracasso
+186	0,2 h	1 aulas	eLogistics - Logística para o E-commerce
+187	0,2 h	1 aulas	Howard Hughes: His Life and Madness
+188	0,2 h	5 aulas	21 Lições para o Século XXI
+189	0,2 h	1 aulas	O Propósito Transformador Massivo
+190	0,2 h	1 aulas	A Lei do Triunfo
+191	0,2 h	1 aulas	A armadilha dos conselhos
+192	0,2 h	1 aulas	Bora Bater Meta
+193	0,2 h	1 aulas	Regulatory sandbox: As leis e a inovação
+194	0,2 h	1 aulas	Excelência e Maestria
+195	0,2 h	1 aulas	7 Passos para ser um Líder de Vendas
+196	0,2 h	1 aulas	Preservando a Reputação
+197	0,2 h	1 aulas	Construindo Comunidades de Marca
+198	0,2 h	1 aulas	As 3 Leis do Desempenho
+199	0,2 h	1 aulas	Lean vs. Ágil vs. Design Thinking
+200	0,2 h	1 aulas	As Novas Competências de Liderança
+201	0,2 h	1 aulas	O Metaverso e como ele irá revolucionar tudo
+202	0,2 h	1 aulas	Metaverso por Mark Zuckerberg entrevista Gary Vaynerchuk
+203	0,2 h	1 aulas	As Regras Básicas de Warren Buffett
+204	0,2 h	1 aulas	The Black Swan
+205	0,2 h	1 aulas	Desafios da Primeira Gestão
+206	0,2 h	1 aulas	Equidade em Elevação
+207	0,2 h	1 aulas	O Príncipe
+209	0,2 h	1 aulas	A sociedade contra o Estado
+210	0,2 h	1 aulas	O Fim do Marketing
+211	0,2 h	1 aulas	A Regra 10X
+212	0,2 h	1 aulas	O Metaverso da China
+214	0,2 h	1 aulas	The Everything Store: Jeff Bezos and the Age of Amazon
+215	0,2 h	1 aulas	Aprofundando os Níveis de Aprendizagem
+216	0,2 h	1 aulas	A Cabeça de Steve Jobs
+217	0,2 h	1 aulas	O Almanaque de Naval Ravikant 
+218	0,2 h	1 aulas	IF THEN: Como a Simulmatics Corporation Inventou O Futuro
+219	0,2 h	1 aulas	O Coach Excelente
+220	0,2 h	1 aulas	O Líder de Longa Distância
+221	0,2 h	1 aulas	O Condutor do Carro Autônomo
+222	0,2 h	1 aulas	Under a White Sky: The Nature of the Future
+223	0,2 h	1 aulas	Ao Vivo de Cupertino
+224	0,2 h	1 aulas	A Comunicação do Líder
+225	0,2 h	1 aulas	Lights Out:Pride, Delusion, and the Fall of General Electric
+226	0,2 h	1 aulas	1984
+227	0,2 h	1 aulas	Security Analysis
+228	0,2 h	1 aulas	21 lições para o Século XXI
+229	0,2 h	1 aulas	Design para um Futuro Mais Justo
+230	0,2 h	2 aulas	Agilidade Emocional (Premium)
+231	0,2 h	1 aulas	Teoria e Prática de Relações Públicas
+232	0,2 h	1 aulas	Simplesmente Gerenciar 
+233	0,2 h	1 aulas	Anticarreira
+234	0,2 h	1 aulas	Ask Your Developer - Pergunte ao Seu Desenvolvedor
+235	0,2 h	1 aulas	SuperApps
+236	0,2 h	1 aulas	Os 4 Estágios da Segurança Psicológica
+237	0,2 h	1 aulas	5% Mais
+238	0,2 h	1 aulas	Memos from the Chairman
+239	0,2 h	1 aulas	Execução: A Disciplina Para Atingir Resultados
+240	0,2 h	1 aulas	The Brains and Brawn Company
+241	0,2 h	1 aulas	Cibersegurança: como não ser alvo de ataques hackers 
+242	0,2 h	1 aulas	Como ouvir e ser ouvido
+243	0,2 h	1 aulas	Como Moderar Palestras, Painéis, Reuniões e Muito Mais
+245	0,2 h	1 aulas	Histórias de Ninar para Gerentes
+246	0,2 h	1 aulas	Bill Gates e o Metaverso
+247	0,2 h	1 aulas	Projetando uma Empresa Melhor
+248	0,2 h	1 aulas	This Is How They Tell Me the World Ends
+249	0,2 h	1 aulas	Regras da Confiança
+250	0,2 h	1 aulas	Economia Compartilhada
+251	0,2 h	1 aulas	Predictive Analytics
+252	0,2 h	1 aulas	The Overstory, de Richard Powers
+253	0,2 h	1 aulas	Ágil do jeito certo
+254	0,2 h	1 aulas	Marketing 4.0
+255	0,2 h	1 aulas	Think Bigger
+256	0,2 h	1 aulas	The Data Driven Leader
+257	0,2 h	1 aulas	Empatia é sua Melhor Ferramenta Criativa
+258	0,2 h	1 aulas	DeFi and the Future of Finance
+259	0,2 h	1 aulas	Os Herdeiros - Os Estudantes e A Cultura
+260	0,2 h	1 aulas	O que podemos aprender com as pessoas resilientes
+262	0,2 h	1 aulas	O Líder Introvertido - Tire partido da sua força silenciosa
+263	0,2 h	1 aulas	The Outsiders
+264	0,2 h	1 aulas	Trabalhe em Equipe Onde Estiver
+266	0,2 h	1 aulas	A distinção: Crítica social do julgamento
+267	0,2 h	1 aulas	Fast Times
+268	0,2 h	1 aulas	Quem pensa enriquece: Edição oficial e original de 1937
+269	0,2 h	1 aulas	Lições aprendidas em 19 anos de Metaverso
+270	0,2 h	1 aulas	Um Guia Completo do Trabalho em Equipes Remotas
+271	0,1 h	1 aulas	Os 5 Desafios das Equipes
+272	0,1 h	1 aulas	Metaverso para iniciantes
+273	0,1 h	1 aulas	O Poder dos Experimentos
+274	0,1 h	1 aulas	As cartas de Warren Buffett
+275	0,1 h	1 aulas	A Start Up Enxuta - Manual da Resistência Mental
+276	0,1 h	1 aulas	Inovação + Igualdade Como criar um futuro melhor
+277	0,1 h	1 aulas	Me Poupe!
+278	0,1 h	1 aulas	Tecnologias Radicais
+279	0,1 h	1 aulas	Behind Every Good Decision
+280	0,1 h	1 aulas	Primeiros passos para anunciar no Facebook
+281	0,1 h	1 aulas	Steve Jobs: A Biography by Walter Isaacson
+282	0,1 h	1 aulas	Tráfego pago para iniciantes
+283	0,1 h	1 aulas	Palavras nos Falham
+284	0,1 h	1 aulas	Consistência Implacável
+285	0,1 h	1 aulas	Integração é Essencial
+286	0,1 h	1 aulas	Liderança de Algoritmo
+287	0,1 h	1 aulas	Jardineiros e Não Mecânicos
+288	0,1 h	1 aulas	Data Driven
+289	0,1 h	1 aulas	Manual da Resistência Mental
+290	0,1 h	1 aulas	Como entrar no mundo digital
+291	0,1 h	1 aulas	O Imperativo da Ativação 
+292	0,1 h	1 aulas	Rei Lear - William Shakespeare
+293	0,1 h	1 aulas	O futuro do trabalho -  Fórum Econômico Mundial 2020
+294	0,1 h	1 aulas	Como liderar com sucesso uma equipe remota
+295	0,1 h	1 aulas	Segurança e Guerra Cibernética
+296	0,1 h	1 aulas	Just Money Mission - Driven Banks and the Future of Finance
+297	0,1 h	1 aulas	Gerenciando Pessoas
+298	0,1 h	1 aulas	Pensamento de Risco - em um mundo incerto
+299	0,1 h	1 aulas	O Fim do Poder
+300	0,1 h	1 aulas	A Era do Capitalismo de Vigilância
+301	0,1 h	1 aulas	Manual de T&D para a Era Digital
+302	0,1 h	1 aulas	Feitas Para Durar: Práticas Bem-sucedidas de Empresas Vision
+303	0,1 h	1 aulas	Avance no seu Próprio Caminho
+304	0,1 h	1 aulas	A Economia das Trocas Simbólicas 
+305	0,1 h	1 aulas	Seventeen Contradictions and the End of Capitalism
+306	0,1 h	1 aulas	O Fator de Inversão 
+307	0,1 h	1 aulas	Por que os Homens se Destacam no Trabalho
+308	0,1 h	1 aulas	Merchants of Doubt - Comerciantes da Dúvida
+309	0,1 h	1 aulas	A Riqueza da Vida Simples
+310	0,1 h	1 aulas	Educação e emancipação
+311	0,1 h	1 aulas	The Master Algorithm
+313	0,1 h	1 aulas	Digital Zettelkasten: Principles, Methods & Examples
+314	0,1 h	1 aulas	Vidas Danificadas
+315	0,1 h	1 aulas	Lean Thinking
+316	0,1 h	1 aulas	Losing My Virginity
+317	0,1 h	1 aulas	O Poder do Líder Generoso
+318	0,1 h	1 aulas	Os Lados Hard e Soft da Gestão de Mudanças
+319	0,1 h	1 aulas	O Código do Estresse: Da sobrevivência à prosperidade
+320	0,1 h	1 aulas	Blockchain Babel
+321	0,1 h	1 aulas	O investidor inteligente
+322	0,1 h	1 aulas	Só Garotos
+323	0,1 h	1 aulas	Jack: Definitivo
+324	0,1 h	1 aulas	11 Lições de Steve Jobs
+325	0,1 h	1 aulas	5 lições que mostram porque Luiza Helena Trajano é  sucesso
+326	0,1 h	1 aulas	Lucro Inteligente
+327	0,1 h	1 aulas	Do Sonho à Realização em 4 Passos
+328	0,1 h	1 aulas	Our Final Invention
+329	0,1 h	1 aulas	DNA do Inovador - Dominando as 5 Habilidades dos Inovadores
+330	0,1 h	1 aulas	Superestrategistas
+331	0,1 h	1 aulas	Projetadas para a Transformação Digital
+332	0,1 h	1 aulas	A Cura da Procrastinação
+333	0,1 h	1 aulas	O metaverso pode ser a próxima oportunidade de trilhões
+334	0,1 h	1 aulas	As Camadas do Metaverso
+335	0,1 h	1 aulas	O Método Loop
+336	0,1 h	1 aulas	Criatividade S.A.
+338	0,1 h	1 aulas	Transições Grandiosas
+339	0,1 h	1 aulas	Sam Walton: Feito na América
+340	0,1 h	1 aulas	O Mais Importante para o Investidor
+341	0,1 h	1 aulas	Gerenciando, Realizando, Vivendo
+342	0,1 h	1 aulas	The Cybersecurity Playbook - How Every Leader and Employee Can Contribute to a Culture of Security
+343	0,1 h	1 aulas	A Economia do Propósito Maior
+344	0,1 h	1 aulas	Os Ensaios de Warren Buffett
+345	0,1 h	1 aulas	A corrosão do caráter
+346	0,1 h	1 aulas	Como: Por que o Como Fazer Algo Significa Tudo
+347	0,1 h	1 aulas	Virtual Facilitation
+348	0,1 h	1 aulas	SUPER FOUNDERS
+349	0,1 h	1 aulas	Testando Ideias de Negócios 
+350	0,1 h	1 aulas	Marketing de Conteúdo
+351	0,1 h	1 aulas	Crítica da razão pura
+352	0,1 h	1 aulas	A Cultura Orientada ao Cliente: Uma História da Microsoft
+353	0,1 h	1 aulas	The New Leadership Playbook for the Digital Age
+354	0,1 h	1 aulas	Screw It, Let's Do It: Lessons In Life
+355	0,1 h	1 aulas	Jogue com Ousadia
+356	0,1 h	1 aulas	O Dilema da Inovação
+357	0,1 h	1 aulas	À Prova de Rotatividade
+358	0,1 h	1 aulas	Capacitação eficiente de vendas
+359	0,1 h	1 aulas	Think Outside the Building
+360	0,1 h	1 aulas	Desconstruindo o Mindset e Construindo Inovação
+361	0,1 h	1 aulas	A Estrutura das Revoluções Científicas
+362	0,1 h	1 aulas	O Futuro Será Humano?
+363	0,1 h	1 aulas	Liderança Conectada
+364	0,1 h	1 aulas	Life 3.0: Being Human in the Age of Artificial Intelligence
+365	0,1 h	1 aulas	Melhores Aliados
+366	0,1 h	1 aulas	Power Play: Tesla, Elon Musk, and the Bet of the Century
+367	0,1 h	1 aulas	Bem-vindo à Gestão
+368	0,1 h	1 aulas	Gatilhos Mentais - O Guia Completo 
+369	0,1 h	1 aulas	Restoring the Soul of Business
+370	0,1 h	1 aulas	Transformando a Gestão de Projetos
+371	0,1 h	1 aulas	1440 Minutos - Uma conversa bem humorada sobre produtividade
+372	0,1 h	1 aulas	Método Lifescale
+373	0,1 h	1 aulas	Lance a Sua Carreira
+374	0,1 h	1 aulas	O líder que supera os seus bloqueios
+375	0,1 h	1 aulas	O Salto Quântico
+376	0,1 h	1 aulas	Reimaginando a Colaboração - Slack, Microsoft Teams, Zoom
+377	0,1 h	1 aulas	Tirania de Métricas
+378	0,1 h	1 aulas	A Falácia da Tecnologia
+379	0,1 h	1 aulas	Condução Digital
+380	0,1 h	1 aulas	Flow
+381	0,1 h	1 aulas	Os Anjos Bons da Nossa Natureza: Por que a violência diminui
+382	0,1 h	1 aulas	Empresas Feitas Para Vencer
+384	0,1 h	1 aulas	O Capital
+385	0,1 h	1 aulas	4.000 Semanas
+386	0,1 h	1 aulas	Reimaginando a Humanidade
+387	0,1 h	1 aulas	A Vantagem da Mentalidade Gig
+388	0,1 h	1 aulas	Guia de Gestão e Liderança para a Geração do Milênio
+389	0,1 h	1 aulas	Leading at a Distance
+391	0,1 h	1 aulas	Mapa para a Coragem
+392	0,1 h	1 aulas	Confident Data Skills
+393	0,1 h	1 aulas	Elon Musk: Como o CEO bilionário está moldando nosso futuro
+394	0,1 h	1 aulas	The Successful Manager
+395	0,1 h	1 aulas	Conversas de Desempenho
+396	0,1 h	1 aulas	As cartas de Bezos -14 princípios para crescer como a Amazon
+397	0,1 h	1 aulas	Estratégias Para Ser Visível
+398	0,1 h	1 aulas	O Estrategista em Mídias Sociais
+399	0,1 h	1 aulas	Comunicação Não Violenta
+400	0,1 h	1 aulas	O Princípio Da Caixa-Preta
+401	0,1 h	1 aulas	Autobiografia de um iogue
+402	0,1 h	1 aulas	Invent and Wander
+403	0,1 h	1 aulas	5 Fatores Indispensáveis para um Kickoff de Vendas Perfeito
+404	0,1 h	1 aulas	The Blockchain and the New Architecture of Trust
+405	0,1 h	1 aulas	Para Pensar Como Um Cientista de Foguetes
+406	0,1 h	1 aulas	Marketing Disruptivo
+407	0,1 h	1 aulas	A Zona Ressonante
+408	0,1 h	1 aulas	Alavanque Sua Fibra
+409	0,1 h	1 aulas	O Poder da Empatia
+410	0,1 h	1 aulas	Extreme Economies 
+411	0,1 h	1 aulas	Além da Cibersegurança - Protegendo o seu negócio digital
+412	0,1 h	1 aulas	Remote Work - Redesign Processes, Practices and Strategies
+413	0,1 h	1 aulas	Liderando Mudanças Críticas
+414	0,1 h	1 aulas	Criando Inovadores
+415	0,1 h	1 aulas	Consciência dos Dispositivos
+416	0,1 h	1 aulas	Kings of Crypto
+417	0,1 h	1 aulas	As 5 principais lições de inovação de Melinda e Bill Gates
+418	0,1 h	1 aulas	O Drone do Bem
+419	0,1 h	1 aulas	Narrativa e Números
+420	0,1 h	1 aulas	Qual o Futuro da sua Profissão no Metaverso?
+421	0,1 h	1 aulas	A Grande Redefinição: Liderança Focada no Ser Humano
+422	0,1 h	1 aulas	A Empresa na Velocidade do Pensamento
+423	0,1 h	1 aulas	Sonho Grande
+424	0,1 h	1 aulas	10 dicas de Warren Buffett essenciais para o seu negócio
+425	0,1 h	1 aulas	Metaverso para Iniciantes e Avançados: Uma Jornada Completa
+426	0,1 h	1 aulas	Planejamento de Marca no Ambiente Digital
+427	0,1 h	1 aulas	As Cinco Tentações de um Executivo
+428	0,1 h	1 aulas	Be Here Now
+429	0,1 h	1 aulas	Oprah Winfrey: a mulher que faz acontecer
+430	0,1 h	1 aulas	Mulheres e Poder
+431	0,1 h	1 aulas	Lead and Disrupt
+432	0,1 h	1 aulas	Quebrando o Hábito do Silêncio
+433	0,1 h	1 aulas	O Otimista Racional
+434	0,1 h	1 aulas	Snow Crash
+435	0,1 h	1 aulas	CEO Vigilante
+436	0,1 h	1 aulas	Banking on It - How I Disrupted an Industry
+437	0,1 h	1 aulas	Mudança de Mindset
+438	0,1 h	1 aulas	Como a Mudança Populacional Irá Transformar o Nosso Mundo
+439	0,1 h	1 aulas	Moral Machines: Teaching Robots Right from Wrong
+440	0,1 h	1 aulas	Bitcoin, Currencies and Fragility
+441	0,1 h	1 aulas	User Research
+442	0,1 h	1 aulas	O Poder do Distanciamento Virtual
+443	0,1 h	1 aulas	When More Is Not Better
+444	0,1 h	1 aulas	First Principle
+445	0,1 h	1 aulas	Marketing Digital na Prática
+446	0,1 h	1 aulas	Toda Empresa Vai Ser uma Fintech
+447	0,1 h	1 aulas	DeFi: The Hot New Crypto Trend Of 2020
+448	0,1 h	1 aulas	O Livro de Soluções para o Gerente
+449	0,1 h	1 aulas	Ética Sapien
+450	0,1 h	1 aulas	Uma Breve História da Cripto Euforia
+451	0,1 h	1 aulas	Data Fluency
+452	0,1 h	1 aulas	Trabalho Sem Empregos
+453	0,1 h	1 aulas	Bytes, Bombs and Spies - The Strategic Dimensions of Offensive Cyber Operations
+454	0,1 h	1 aulas	A história de Mary Maxwell, mãe de Bill Gates e a Microsoft
+455	0,1 h	1 aulas	Produção Lean Simplificada
+456	0,1 h	1 aulas	11 HR Trends to Take into Account for 2021
+457	0,1 h	1 aulas	A Reinvenção da Empresa
+458	0,1 h	1 aulas	7 lições de sucesso que você pode aprender com Jeff Bezos
+459	0,1 h	1 aulas	Steve Jobs’s Real Talent Wasn’t Design – It Was Seduction
+460	0,1 h	1 aulas	Pai Rico, Pai Pobre
+461	0,1 h	1 aulas	What if bitcoin went to zero?
+462	0,1 h	1 aulas	Metaverso de 30 Minutos
+463	0,1 h	1 aulas	As 15 grandes lições de Bill Gates
+464	0,1 h	1 aulas	O Futuro do Bitcoin
+465	0,1 h	1 aulas	Verifique seu Privilégio Financeiro
+466	0,1 h	1 aulas	What are DAOs?
+467	0,1 h	1 aulas	Ativos digitais, tecnologia de contabilidade e o futuro
+468	0,1 h	1 aulas	A Incrível Logística dos Supermercados
+469	0,1 h	1 aulas	Introdução
+470	0,1 h	1 aulas	The Coming Currency War
+471	0,1 h	1 aulas	Top 10 Tendências para o Ambiente de Trabalho em 2022
+472	0,1 h	1 aulas	A Moeda da Confiança
+473	0,1 h	1 aulas	Batendo o Relógio de Ponto
+474	0,1 h	1 aulas	O maior recurso do Bitcoin também é sua ameaça existencial
+475	0,1 h	1 aulas	Mentes Felizes
+476	0,1 h	1 aulas	O Sucesso de Elon Musk
+477	0,1 h	1 aulas	Os 14 Princípios da Organização do Futuro
+478	0,1 h	1 aulas	Ensinando robôs da maneira errada
+479	0,1 h	1 aulas	Want a Job? The AI Will See You Now
+480	0,1 h	1 aulas	A visão de Bob Muglia sobre Bill Gates e Steve Ballmer
+481	0,1 h	1 aulas	Warren Buffett: Sua trajetória e suas lições
+482	0,1 h	1 aulas	5 Dicas para se destacar na gestão remota
+483	0,1 h	1 aulas	Inovação em RH e o Futuro do Trabalho
+484	0,1 h	1 aulas	Emoções: Fatos vs. Ficção
+485	0,1 h	1 aulas	Construindo um Local de Trabalho Diversificado e Inclusivo
+486	0,1 h	1 aulas	Custo Marginal Zero
