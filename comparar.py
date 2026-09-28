@@ -24,7 +24,8 @@ def normalizar(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"\((premium)\)|-\s*inativo|\.mp4$", " ", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
-    return re.sub(r"\s+", " ", s).strip()
+    romanos = {"i": "1", "ii": "2", "iii": "3", "iv": "4"}
+    return " ".join(romanos.get(p, p) for p in s.split())
 
 
 def carregar_titulos(caminho):
@@ -44,7 +45,10 @@ def bate(nome, titulos):
     contem = lambda a, b: re.search(rf"(^| ){re.escape(a)}( |$)", b)
     if len(n) >= 12 and any(contem(n, t) or (len(t) >= 12 and contem(t, n)) for t in titulos):
         return True
-    return bool(difflib.get_close_matches(n, titulos, n=1, cutoff=0.9))
+    # nome parecido (erro de digitação), mas os números têm que ser iguais
+    numeros = re.findall(r"\d+", n)
+    return any(re.findall(r"\d+", t) == numeros
+               for t in difflib.get_close_matches(n, titulos, n=3, cutoff=0.9))
 
 
 def presente(curso, titulos):
