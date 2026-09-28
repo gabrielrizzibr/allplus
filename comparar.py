@@ -40,7 +40,9 @@ def bate(nome, titulos):
         return False
     if n in titulos:
         return True
-    if len(n) >= 12 and any(n in t or (len(t) >= 12 and t in n) for t in titulos):
+    # um contém o outro, mas só com palavras inteiras ("modulo i" não bate com "modulo ii")
+    contem = lambda a, b: re.search(rf"(^| ){re.escape(a)}( |$)", b)
+    if len(n) >= 12 and any(contem(n, t) or (len(t) >= 12 and contem(t, n)) for t in titulos):
         return True
     return bool(difflib.get_close_matches(n, titulos, n=1, cutoff=0.9))
 
