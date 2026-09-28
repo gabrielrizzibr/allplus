@@ -1,5 +1,5 @@
-﻿# Baixa os cursos do HTML (dados\cursos.json) para o seu PC, do maior para o menor.
-# Uma pasta por curso, aulas numeradas na ordem. Pode fechar e abrir de novo:
+﻿# Baixa os cursos do HTML (dados\cursos.json) para o seu PC, da maior carga horária para a menor.
+# Curso\NN - Módulo\NNN - Aula.mp4 (cursos sem módulo: aulas direto na pasta do curso). Pode fechar e abrir de novo:
 # o que já foi baixado é pulado e arquivo pela metade continua de onde parou.
 #
 # Uso (ou dê dois cliques em BAIXAR_TUDO.bat):
@@ -30,7 +30,7 @@ if ($Lista) {
     $ranks = Get-Content $Lista -Encoding UTF8 | Where-Object { ($_ -split "`t")[0] -match '^\d+$' } | ForEach-Object { [int]($_ -split "`t")[0] }
     $cursos = @($cursos | Where-Object { $ranks -contains $_.rank })
 }
-$cursos = @($cursos | Where-Object { $_.bytes -ge $MinGB * 1e9 } | Sort-Object rank)
+$cursos = @($cursos | Where-Object { $_.bytes -ge $MinGB * 1e9 } | Sort-Object rank)  # rank = maior carga horária primeiro
 if ($Top -gt 0) { $cursos = @($cursos | Select-Object -First $Top) }
 
 New-Item -ItemType Directory -Force -Path $Destino | Out-Null
@@ -49,12 +49,21 @@ foreach ($c in $cursos) {
     $pasta = Join-Path $Destino ("{0:D3} - {1}" -f $c.rank, (Limpar $c.curso))
     New-Item -ItemType Directory -Force -Path $pasta | Out-Null
     Write-Host ""
-    Write-Host ("[{0}/{1}] {2:N2} GB  {3}" -f $i, $cursos.Count, ($c.bytes / 1e9), $c.curso) -ForegroundColor Cyan
+    Write-Host ("[{0}/{1}] {2:N1} h, {3:N2} GB  {4}" -f $i, $cursos.Count, ($c.segundos / 3600), ($c.bytes / 1e9), $c.curso) -ForegroundColor Cyan
 
+    # módulos numerados na ordem em que aparecem; curso sem módulos -> aulas direto na pasta do curso
+    $modulos = [System.Collections.Generic.List[string]]::new()
+    foreach ($v in $c.videos) { if (-not $modulos.Contains($v.modulo)) { $modulos.Add($v.modulo) } }
     $n = 0
     foreach ($v in $c.videos) {
         $n++
-        $arq = Join-Path $pasta ("{0:D3} - {1}.mp4" -f $n, (Limpar $v.nome))
+        $destinoAula = $pasta
+        if ($v.modulo.Trim() -or $modulos.Count -gt 1) {
+            $nomeMod = if ($v.modulo.Trim()) { $v.modulo } else { "Sem módulo" }
+            $destinoAula = Join-Path $pasta ("{0:D2} - {1}" -f ($modulos.IndexOf($v.modulo) + 1), (Limpar $nomeMod))
+        }
+        New-Item -ItemType Directory -Force -Path $destinoAula | Out-Null
+        $arq = Join-Path $destinoAula ("{0:D3} - {1}.mp4" -f $n, (Limpar $v.nome))
         if ((Test-Path -LiteralPath $arq) -and ((Get-Item -LiteralPath $arq).Length -eq $v.bytes)) {
             Write-Host ("  {0}/{1} já existe" -f $n, $c.videos.Count)
             continue

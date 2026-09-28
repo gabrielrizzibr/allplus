@@ -1,5 +1,5 @@
 """Baixa os cursos que não estão em lugar nenhum para a pasta para_vimeo/,
-um subdiretório por curso, aulas numeradas na ordem.
+da maior carga horária para a menor: Curso/NN - Módulo/NNN - Aula.mp4.
 
 Uso:
   python baixar_para_vimeo.py                 # todos de nao_esta_em_lugar_nenhum.txt
@@ -56,12 +56,17 @@ def main():
 
     for c in escolhidos:
         pasta = os.path.join(a.saida, f'{c["rank"]:03d} - {limpar(c["curso"])}')
-        print(f'\n[{c["bytes"] / 1e9:.2f} GB] {c["curso"]}')
+        print(f'\n[{c["segundos"] / 3600:.1f} h, {c["bytes"] / 1e9:.2f} GB] {c["curso"]}')
         if a.dry_run:
             continue
-        os.makedirs(pasta, exist_ok=True)
+        modulos = list(dict.fromkeys(v["modulo"] for v in c["videos"]))
         for i, v in enumerate(c["videos"], 1):
-            destino = os.path.join(pasta, f"{i:03d} - {limpar(v['nome'])}.mp4")
+            # curso sem módulos: aulas direto na pasta do curso
+            nome_mod = v["modulo"].strip() or "Sem módulo"
+            sub = pasta if len(modulos) == 1 and not v["modulo"].strip() else \
+                os.path.join(pasta, f'{modulos.index(v["modulo"]) + 1:02d} - {limpar(nome_mod)}')
+            os.makedirs(sub, exist_ok=True)
+            destino = os.path.join(sub, f"{i:03d} - {limpar(v['nome'])}.mp4")
             try:
                 print(f"  {i}/{c['aulas']} {baixar(v['url'], destino, v['bytes'])}  {v['nome']}")
             except Exception as e:

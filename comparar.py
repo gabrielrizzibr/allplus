@@ -7,8 +7,8 @@ vimeo.txt: de preferência "pasta<TAB>vídeo" por linha (pasta = curso no Vimeo)
 site.txt:  um curso por linha (se tiver aulas, "curso<TAB>aula").
 
 Gera em dados/:
-  - checklist.csv / checklist.md   todos os cursos, do maior pro menor:
-        curso | GB | Vimeo ✅/⚠️ x/y/❌ | Site ✅/❌ | próximo passo | aulas faltando no Vimeo
+  - checklist.csv / checklist.md   todos os cursos, da maior carga horária pra menor:
+        curso | horas | aulas | Vimeo ✅/⚠️ x/y/❌ | Site ✅/❌ | próximo passo | aulas faltando no Vimeo
   - falta_no_site.txt              completo no Vimeo, falta no site
   - vimeo_incompleto.txt           no Vimeo, mas faltando aulas
   - nao_esta_em_lugar_nenhum.txt   só no HTML -> baixar e subir no Vimeo
@@ -118,21 +118,22 @@ def main():
 
     with open(os.path.join(DADOS, "checklist.csv"), "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, delimiter=";")
-        w.writerow(["rank", "curso", "GB", "aulas", "vimeo", "site", "proximo_passo", "aulas_faltando_no_vimeo"])
+        w.writerow(["rank", "curso", "horas", "aulas", "GB", "vimeo", "site", "proximo_passo", "aulas_faltando_no_vimeo"])
         for c, vimeo, site, passo, faltam in linhas:
-            w.writerow([c["rank"], c["curso"], f'{c["bytes"] / 1e9:.2f}'.replace(".", ","), c["aulas"],
+            w.writerow([c["rank"], c["curso"], f'{c["segundos"] / 3600:.2f}'.replace(".", ","), c["aulas"],
+                        f'{c["bytes"] / 1e9:.2f}'.replace(".", ","),
                         vimeo, site, passo, " | ".join(faltam)])
 
     with open(os.path.join(DADOS, "checklist.md"), "w", encoding="utf-8") as f:
-        f.write("| # | Curso | GB | Vimeo | Site | Próximo passo |\n|---|---|---|---|---|---|\n")
+        f.write("| # | Curso | Horas | Aulas | Vimeo | Site | Próximo passo |\n|---|---|---|---|---|---|---|\n")
         for c, vimeo, site, passo, _ in linhas:
-            f.write(f'| {c["rank"]} | {c["curso"]} | {c["bytes"] / 1e9:.2f} | {vimeo} | {site} | {passo} |\n')
+            f.write(f'| {c["rank"]} | {c["curso"]} | {c["segundos"] / 3600:.1f} | {c["aulas"]} | {vimeo} | {site} | {passo} |\n')
 
     def salvar(nome, lista):
         with open(os.path.join(DADOS, nome), "w", encoding="utf-8") as f:
             for item in lista:
                 c, faltam = item if isinstance(item, tuple) else (item, [])
-                f.write(f'{c["rank"]}\t{c["bytes"] / 1e9:.2f} GB\t{c["curso"]}\n')
+                f.write(f'{c["rank"]}\t{c["segundos"] / 3600:.1f} h\t{c["aulas"]} aulas\t{c["curso"]}\n')
                 for a in faltam:
                     f.write(f"\t\t  falta: {a}\n")
 
@@ -145,7 +146,7 @@ def main():
           f"Vimeo incompleto: {len(incompleto)} | em lugar nenhum: {len(nenhum)} "
           f"({sum(c['bytes'] for c in nenhum) / 1e9:.1f} GB)")
     for c, vimeo, site, passo, _ in linhas[:25]:
-        print(f'  #{c["rank"]:<4} {c["bytes"] / 1e9:6.2f} GB  Vimeo {vimeo:<9} Site {site}  {passo:<45} {c["curso"]}')
+        print(f'  #{c["rank"]:<4} {c["segundos"] / 3600:5.1f} h {c["aulas"]:>4} aulas  Vimeo {vimeo:<9} Site {site}  {passo:<45} {c["curso"]}')
 
 
 if __name__ == "__main__":
