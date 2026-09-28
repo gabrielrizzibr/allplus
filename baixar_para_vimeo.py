@@ -45,7 +45,7 @@ def main():
     a = p.parse_args()
 
     cursos = {c["rank"]: c for c in json.load(open(os.path.join(DADOS, "cursos.json"), encoding="utf-8"))}
-    ranks = [int(l.split("\t")[0]) for l in open(a.lista, encoding="utf-8") if l.strip()]
+    ranks = [int(l.split("\t")[0]) for l in open(a.lista, encoding="utf-8") if l.split("\t")[0].strip().isdigit()]
     escolhidos = [cursos[r] for r in ranks if cursos[r]["bytes"] >= a.min_gb * 1e9][: a.top]
 
     total = sum(c["bytes"] for c in escolhidos) / 1e9

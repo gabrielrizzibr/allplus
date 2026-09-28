@@ -27,7 +27,7 @@ $json = Get-Content (Join-Path $PSScriptRoot "dados\cursos.json") -Raw -Encoding
 $cursos = @(ConvertFrom-Json $json)
 
 if ($Lista) {
-    $ranks = Get-Content $Lista -Encoding UTF8 | Where-Object { $_.Trim() } | ForEach-Object { [int]($_ -split "`t")[0] }
+    $ranks = Get-Content $Lista -Encoding UTF8 | Where-Object { ($_ -split "`t")[0] -match '^\d+$' } | ForEach-Object { [int]($_ -split "`t")[0] }
     $cursos = @($cursos | Where-Object { $ranks -contains $_.rank })
 }
 $cursos = @($cursos | Where-Object { $_.bytes -ge $MinGB * 1e9 } | Sort-Object rank)
