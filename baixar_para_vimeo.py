@@ -1,5 +1,6 @@
 """Baixa os cursos que não estão em lugar nenhum para a pasta para_vimeo/,
-da maior carga horária para a menor: Curso/NN - Módulo/NNN - Aula.mp4.
+da maior carga horária para a menor:
+  NNN - Curso/Módulo NN - Nome do módulo/Aula NNN - Nome da aula.mp4
 
 Uso:
   python baixar_para_vimeo.py                 # todos de nao_esta_em_lugar_nenhum.txt
@@ -23,6 +24,21 @@ DADOS = os.path.join(AQUI, "dados")
 def limpar(nome):
     nome = re.sub(r'[<>:"/\\|?*\x00-\x1f]', "", nome).strip(" .")
     return nome[:120] or "sem nome"
+
+
+def nome_modulo(nome):
+    """Tira o "Módulo 3 -" do começo (a pasta já leva "Módulo 03 - ")."""
+    return re.sub(r"^\s*m[óo]dulo\s*\d+\s*[-–:.]?\s*", "", nome, flags=re.I).strip() or nome.strip()
+
+
+def caminho_aula(pasta_curso, modulos, i, v):
+    """Curso/Módulo NN - Nome/Aula NNN - Nome da aula.mp4 (sem módulos: direto na pasta do curso)."""
+    aula = f"Aula {i:03d} - {limpar(v['nome'])}.mp4"
+    if len(modulos) == 1 and not v["modulo"].strip():
+        return os.path.join(pasta_curso, aula)
+    n = modulos.index(v["modulo"]) + 1
+    mod = limpar(nome_modulo(v["modulo"])) if v["modulo"].strip() else "Sem nome"
+    return os.path.join(pasta_curso, f"Módulo {n:02d} - {mod}", aula)
 
 
 def baixar(url, destino, tamanho):
@@ -56,17 +72,14 @@ def main():
 
     for c in escolhidos:
         pasta = os.path.join(a.saida, f'{c["rank"]:03d} - {limpar(c["curso"])}')
-        print(f'\n[{c["segundos"] / 3600:.1f} h, {c["bytes"] / 1e9:.2f} GB] {c["curso"]}')
-        if a.dry_run:
-            continue
         modulos = list(dict.fromkeys(v["modulo"] for v in c["videos"]))
+        print(f'\n[{c["segundos"] / 3600:.1f} h, {c["bytes"] / 1e9:.2f} GB] {c["curso"]}')
         for i, v in enumerate(c["videos"], 1):
-            # curso sem módulos: aulas direto na pasta do curso
-            nome_mod = v["modulo"].strip() or "Sem módulo"
-            sub = pasta if len(modulos) == 1 and not v["modulo"].strip() else \
-                os.path.join(pasta, f'{modulos.index(v["modulo"]) + 1:02d} - {limpar(nome_mod)}')
-            os.makedirs(sub, exist_ok=True)
-            destino = os.path.join(sub, f"{i:03d} - {limpar(v['nome'])}.mp4")
+            destino = caminho_aula(pasta, modulos, i, v)
+            if a.dry_run:
+                print("  " + os.path.relpath(destino, a.saida))
+                continue
+            os.makedirs(os.path.dirname(destino), exist_ok=True)
             try:
                 print(f"  {i}/{c['aulas']} {baixar(v['url'], destino, v['bytes'])}  {v['nome']}")
             except Exception as e:

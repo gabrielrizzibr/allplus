@@ -1,5 +1,5 @@
 ﻿# Baixa os cursos do HTML (dados\cursos.json) para o seu PC, da maior carga horária para a menor.
-# Curso\NN - Módulo\NNN - Aula.mp4 (cursos sem módulo: aulas direto na pasta do curso). Pode fechar e abrir de novo:
+# NNN - Curso\Módulo NN - Nome do módulo\Aula NNN - Nome da aula.mp4 (sem módulos: direto na pasta do curso). Pode fechar e abrir de novo:
 # o que já foi baixado é pulado e arquivo pela metade continua de onde parou.
 #
 # Uso (ou dê dois cliques em BAIXAR_TUDO.bat):
@@ -59,11 +59,13 @@ foreach ($c in $cursos) {
         $n++
         $destinoAula = $pasta
         if ($v.modulo.Trim() -or $modulos.Count -gt 1) {
-            $nomeMod = if ($v.modulo.Trim()) { $v.modulo } else { "Sem módulo" }
-            $destinoAula = Join-Path $pasta ("{0:D2} - {1}" -f ($modulos.IndexOf($v.modulo) + 1), (Limpar $nomeMod))
+            # tira "Módulo 3 -" do começo, a pasta já leva "Módulo 03 - "
+            $nomeMod = ($v.modulo -replace '^\s*[Mm][óÓoO][Dd][Uu][Ll][Oo]\s*\d+\s*[-–:.]?\s*', '').Trim()
+            if (-not $nomeMod) { $nomeMod = if ($v.modulo.Trim()) { $v.modulo.Trim() } else { "Sem nome" } }
+            $destinoAula = Join-Path $pasta ("Módulo {0:D2} - {1}" -f ($modulos.IndexOf($v.modulo) + 1), (Limpar $nomeMod))
         }
         New-Item -ItemType Directory -Force -Path $destinoAula | Out-Null
-        $arq = Join-Path $destinoAula ("{0:D3} - {1}.mp4" -f $n, (Limpar $v.nome))
+        $arq = Join-Path $destinoAula ("Aula {0:D3} - {1}.mp4" -f $n, (Limpar $v.nome))
         if ((Test-Path -LiteralPath $arq) -and ((Get-Item -LiteralPath $arq).Length -eq $v.bytes)) {
             Write-Host ("  {0}/{1} já existe" -f $n, $c.videos.Count)
             continue
