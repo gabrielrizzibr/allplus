@@ -7,7 +7,7 @@
 #   .\baixar_tudo.ps1 -Top 10                  # só os 10 maiores
 #   .\baixar_tudo.ps1 -MinGB 2                 # só cursos com 2 GB ou mais
 #   .\baixar_tudo.ps1 -Destino "D:\para_vimeo" # outra pasta/disco
-#   .\baixar_tudo.ps1 -Lista dados\nao_esta_em_lugar_nenhum.txt   # só os que faltam
+#   .\baixar_tudo.ps1 -Lista dados\prioridade_download.txt   # na ordem de prioridade
 param(
     [string]$Destino = (Join-Path $PSScriptRoot "para_vimeo"),
     [int]$Top = 0,
@@ -27,10 +27,15 @@ $json = Get-Content (Join-Path $PSScriptRoot "dados\cursos.json") -Raw -Encoding
 $cursos = @(ConvertFrom-Json $json)
 
 if ($Lista) {
+    # respeita a ordem da lista (prioridade)
     $ranks = Get-Content $Lista -Encoding UTF8 | Where-Object { ($_ -split "`t")[0] -match '^\d+$' } | ForEach-Object { [int]($_ -split "`t")[0] }
-    $cursos = @($cursos | Where-Object { $ranks -contains $_.rank })
+    $porRank = @{}
+    foreach ($c in $cursos) { $porRank[[int]$c.rank] = $c }
+    $cursos = @($ranks | ForEach-Object { $porRank[$_] } | Where-Object { $_ })
+} else {
+    $cursos = @($cursos | Sort-Object rank)  # rank = maior carga horária primeiro
 }
-$cursos = @($cursos | Where-Object { $_.bytes -ge $MinGB * 1e9 } | Sort-Object rank)  # rank = maior carga horária primeiro
+$cursos = @($cursos | Where-Object { $_.bytes -ge $MinGB * 1e9 })
 if ($Top -gt 0) { $cursos = @($cursos | Select-Object -First $Top) }
 
 New-Item -ItemType Directory -Force -Path $Destino | Out-Null
