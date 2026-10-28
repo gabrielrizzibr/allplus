@@ -82,7 +82,7 @@ foreach ($c in $cursos) {
         }
         Write-Host ("  {0}/{1} {2:N0} MB  {3}" -f $n, $c.videos.Count, ($v.bytes / 1MB), $v.nome)
         # curl.exe já vem no Windows 10/11; -C - continua download interrompido
-        & curl.exe -L -C - --retry 5 --retry-delay 5 -# -o $arq $v.url
+        & curl.exe -f -L -C - --retry 5 --retry-delay 5 -# -o $arq $v.url
         if ($LASTEXITCODE -ne 0) { Write-Host "    ERRO ao baixar (código $LASTEXITCODE), segue para o próximo" -ForegroundColor Red }
     }
 }

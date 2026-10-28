@@ -34,6 +34,15 @@ Pasta raiz: **CURSOS ALL PLUS** na Área de Trabalho do usuário (padrão do bai
 `NNN - Nome do Curso\Módulo NN - Nome do módulo\Aula NNN - Nome da aula.mp4`
 (curso sem módulos: aulas direto na pasta do curso; NNN do curso = rank por carga horária).
 
+## ATENÇÃO (28/out): S3 bloqueado
+Desde ~outubro o bucket `fpass-backup` responde **403 Access Denied** para todos os vídeos
+(em 28/set era público). Nenhum download funciona até o dono da conta AWS liberar leitura
+pública ou fornecer credenciais/links assinados.
+
+## O usuário usa **Mac**
+Usar `BAIXAR_TUDO_MAC.command` (gerado por `gerar_script_mac.py`; bash + curl, sem Python).
+No Terminal: `bash ~/Desktop/cursos_allnet/BAIXAR_TUDO_MAC.command`.
+
 ## Como baixar (rodar na máquina do usuário — sessão Local)
 - Python: `python baixar_para_vimeo.py --lista dados/prioridade_download.txt --saida "Cursos All Plus"`
 - Windows sem Python: `BAIXAR_TUDO.bat` (usa `baixar_tudo.ps1` + curl.exe)
