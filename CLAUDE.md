@@ -30,11 +30,12 @@ mas não é obrigatório para quem já está completo no site.
 - Data Science: faltam 10 aulas no site, mas já estão completas no Vimeo (não precisa baixar).
 
 ## Estrutura dos arquivos baixados
+Pasta raiz: **Cursos All Plus**.
 `NNN - Nome do Curso\Módulo NN - Nome do módulo\Aula NNN - Nome da aula.mp4`
 (curso sem módulos: aulas direto na pasta do curso; NNN do curso = rank por carga horária).
 
 ## Como baixar (rodar na máquina do usuário — sessão Local)
-- Python: `python baixar_para_vimeo.py --lista dados/prioridade_download.txt --saida para_vimeo`
+- Python: `python baixar_para_vimeo.py --lista dados/prioridade_download.txt --saida "Cursos All Plus"`
 - Windows sem Python: `BAIXAR_TUDO.bat` (usa `baixar_tudo.ps1` + curl.exe)
 Ambos retomam de onde pararam. Conferir espaço em disco antes (~670 GB no total).
 

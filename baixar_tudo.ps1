@@ -6,10 +6,10 @@
 #   .\baixar_tudo.ps1                          # tudo (~628 GB)
 #   .\baixar_tudo.ps1 -Top 10                  # só os 10 maiores
 #   .\baixar_tudo.ps1 -MinGB 2                 # só cursos com 2 GB ou mais
-#   .\baixar_tudo.ps1 -Destino "D:\para_vimeo" # outra pasta/disco
+#   .\baixar_tudo.ps1 -Destino "D:\Cursos All Plus" # outra pasta/disco
 #   .\baixar_tudo.ps1 -Lista dados\prioridade_download.txt   # na ordem de prioridade
 param(
-    [string]$Destino = (Join-Path $PSScriptRoot "para_vimeo"),
+    [string]$Destino = (Join-Path $PSScriptRoot "Cursos All Plus"),
     [int]$Top = 0,
     [double]$MinGB = 0,
     [string]$Lista = ""

@@ -1,4 +1,4 @@
-"""Baixa os cursos que não estão em lugar nenhum para a pasta para_vimeo/,
+"""Baixa os cursos para a pasta "Cursos All Plus/",
 da maior carga horária para a menor:
   NNN - Curso/Módulo NN - Nome do módulo/Aula NNN - Nome da aula.mp4
 
@@ -54,7 +54,7 @@ def baixar(url, destino, tamanho):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--lista", default=os.path.join(DADOS, "nao_esta_em_lugar_nenhum.txt"))
-    p.add_argument("--saida", default=os.path.join(AQUI, "para_vimeo"))
+    p.add_argument("--saida", default=os.path.join(AQUI, "Cursos All Plus"))
     p.add_argument("--top", type=int)
     p.add_argument("--min-gb", type=float, default=0)
     p.add_argument("--dry-run", action="store_true")
