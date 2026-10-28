@@ -2,6 +2,7 @@
 # NNN - Curso\Módulo NN - Nome do módulo\Aula NNN - Nome da aula.mp4 (sem módulos: direto na pasta do curso). Pode fechar e abrir de novo:
 # o que já foi baixado é pulado e arquivo pela metade continua de onde parou.
 #
+# Destino padrão: pasta "CURSOS ALL PLUS" na Área de Trabalho (criada se não existir).
 # Uso (ou dê dois cliques em BAIXAR_TUDO.bat):
 #   .\baixar_tudo.ps1                          # tudo (~628 GB)
 #   .\baixar_tudo.ps1 -Top 10                  # só os 10 maiores
@@ -9,7 +10,7 @@
 #   .\baixar_tudo.ps1 -Destino "D:\Cursos All Plus" # outra pasta/disco
 #   .\baixar_tudo.ps1 -Lista dados\prioridade_download.txt   # na ordem de prioridade
 param(
-    [string]$Destino = (Join-Path $PSScriptRoot "Cursos All Plus"),
+    [string]$Destino = (Join-Path ([Environment]::GetFolderPath("Desktop")) "CURSOS ALL PLUS"),
     [int]$Top = 0,
     [double]$MinGB = 0,
     [string]$Lista = ""

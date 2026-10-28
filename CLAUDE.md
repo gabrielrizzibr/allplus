@@ -30,7 +30,7 @@ mas não é obrigatório para quem já está completo no site.
 - Data Science: faltam 10 aulas no site, mas já estão completas no Vimeo (não precisa baixar).
 
 ## Estrutura dos arquivos baixados
-Pasta raiz: **Cursos All Plus**.
+Pasta raiz: **CURSOS ALL PLUS** na Área de Trabalho do usuário (padrão do baixar_tudo.ps1).
 `NNN - Nome do Curso\Módulo NN - Nome do módulo\Aula NNN - Nome da aula.mp4`
 (curso sem módulos: aulas direto na pasta do curso; NNN do curso = rank por carga horária).
 
