@@ -78,3 +78,11 @@ Continuam os 47 cursos de `dados/maiores_fora_do_site.csv`.
 - 45 — First Principle — aulas: 4
 - 46 — 21 Lições para o Século XXI — aulas: 5
 - 47 — Agilidade Emocional (Premium) — aulas: 2
+
+## Atualização 13/11 — prints enviados pelo usuário
+Prints de: Inteligência Artificial (Canis Minor Solum 27, Fundamentos de Machine Learning 29,
+Data Science 61, IA para Produtividade 2), Informática 5.0 (Volume 1, 5 módulos),
+Game & Marketing (Game Dev 4, CBS 9) e Inglês (Basic 1 17, Business English 2).
+Todos já constavam em `site_allplus.tsv`, exceto **Informática 5.0**, que não existe no HTML
+(outra fonte, como INFORMATICA - LEO). **Nenhum dos 47 foi achado** → lista de downloads sem alteração.
+Faltam prints da seção Gestão Empresarial e Tecnologia (e de outras seções, se houver) para fechar.
