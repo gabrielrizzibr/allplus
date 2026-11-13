@@ -86,3 +86,10 @@ Game & Marketing (Game Dev 4, CBS 9) e Inglês (Basic 1 17, Business English 2).
 Todos já constavam em `site_allplus.tsv`, exceto **Informática 5.0**, que não existe no HTML
 (outra fonte, como INFORMATICA - LEO). **Nenhum dos 47 foi achado** → lista de downloads sem alteração.
 Faltam prints da seção Gestão Empresarial e Tecnologia (e de outras seções, se houver) para fechar.
+
+## Atualização 13/11 (2) — prints de Gestão Empresarial e Tecnologia
+Gestão: Auxiliar Administrativo 17, 7 Tendências 10, Instagram Autoral 8, Contabilidade p/ Iniciantes 6,
+Estratégias de Carreira 6, Liderança de Equipes 1. Tecnologia: Informática Básica 11 (Leonardo),
+AutoCAD 2019 53, Python 86, B.I. 9, Power Point 16, Excel 2019 (Módulo I) 41, Illustrator CC 2019 47, React Avançado 4.
+Novo só **Informática Básica** (= "INFORMATICA - LEO", outra fonte, não está no HTML).
+**Conclusão: o site tem 23 cursos; nenhum dos 47 está lá. Lista de downloads sem alteração.**
